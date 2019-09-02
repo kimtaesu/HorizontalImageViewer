@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E5BF3D8D7B7F5DA16212C7D /* Pods_HorizontalImageViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6FE6F40027EDD10FB35ED20 /* Pods_HorizontalImageViewer.framework */; };
+		BD6484B6231DBCF00030B559 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6484B5231DBCF00030B559 /* AppDelegate.swift */; };
+		BD6484B8231DBCF00030B559 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6484B7231DBCF00030B559 /* ViewController.swift */; };
+		BD6484BB231DBCF00030B559 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD6484B9231DBCF00030B559 /* Main.storyboard */; };
+		BD6484BE231DBCF00030B559 /* HorizontalImageViewer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD6484BC231DBCF00030B559 /* HorizontalImageViewer.xcdatamodeld */; };
+		BD6484C0231DBCF20030B559 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD6484BF231DBCF20030B559 /* Assets.xcassets */; };
+		BD6484C3231DBCF20030B559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD6484C1231DBCF20030B559 /* LaunchScreen.storyboard */; };
+		BD6484CB231DBD5E0030B559 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6484CA231DBD5E0030B559 /* ImageLoader.swift */; };
+		BD6484CE231DBE7B0030B559 /* ScrollingImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6484CD231DBE7B0030B559 /* ScrollingImageCell.swift */; };
+		BD6484D0231DBE990030B559 /* SwiftNameIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6484CF231DBE990030B559 /* SwiftNameIdentifier.swift */; };
+		BD6484D3231DBEBA0030B559 /* SnappingCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6484D2231DBEBA0030B559 /* SnappingCollectionViewLayout.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D6E8979EC546CEE175C3F6E /* Pods-HorizontalImageViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalImageViewer.release.xcconfig"; path = "Target Support Files/Pods-HorizontalImageViewer/Pods-HorizontalImageViewer.release.xcconfig"; sourceTree = "<group>"; };
+		B6FE6F40027EDD10FB35ED20 /* Pods_HorizontalImageViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalImageViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD6484B2231DBCF00030B559 /* HorizontalImageViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorizontalImageViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD6484B5231DBCF00030B559 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD6484B7231DBCF00030B559 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD6484BA231DBCF00030B559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD6484BD231DBCF00030B559 /* HorizontalImageViewer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HorizontalImageViewer.xcdatamodel; sourceTree = "<group>"; };
+		BD6484BF231DBCF20030B559 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD6484C2231DBCF20030B559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD6484C4231DBCF20030B559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD6484CA231DBD5E0030B559 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		BD6484CD231DBE7B0030B559 /* ScrollingImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingImageCell.swift; sourceTree = "<group>"; };
+		BD6484CF231DBE990030B559 /* SwiftNameIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNameIdentifier.swift; sourceTree = "<group>"; };
+		BD6484D2231DBEBA0030B559 /* SnappingCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnappingCollectionViewLayout.swift; sourceTree = "<group>"; };
+		F1E7D758097EA37680DE0850 /* Pods-HorizontalImageViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalImageViewer.debug.xcconfig"; path = "Target Support Files/Pods-HorizontalImageViewer/Pods-HorizontalImageViewer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD6484AF231DBCF00030B559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E5BF3D8D7B7F5DA16212C7D /* Pods_HorizontalImageViewer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93A7A21DF53A0F6E3B8753D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6FE6F40027EDD10FB35ED20 /* Pods_HorizontalImageViewer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD6484A9231DBCF00030B559 = {
+			isa = PBXGroup;
+			children = (
+				BD6484B4231DBCF00030B559 /* HorizontalImageViewer */,
+				BD6484B3231DBCF00030B559 /* Products */,
+				D0E64F8BA05EE94487166BA3 /* Pods */,
+				93A7A21DF53A0F6E3B8753D4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BD6484B3231DBCF00030B559 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD6484B2231DBCF00030B559 /* HorizontalImageViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD6484B4231DBCF00030B559 /* HorizontalImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				BD6484D1231DBEB30030B559 /* Layouts */,
+				BD6484CC231DBE740030B559 /* Views */,
+				BD6484B5231DBCF00030B559 /* AppDelegate.swift */,
+				BD6484B7231DBCF00030B559 /* ViewController.swift */,
+				BD6484B9231DBCF00030B559 /* Main.storyboard */,
+				BD6484BF231DBCF20030B559 /* Assets.xcassets */,
+				BD6484C1231DBCF20030B559 /* LaunchScreen.storyboard */,
+				BD6484C4231DBCF20030B559 /* Info.plist */,
+				BD6484BC231DBCF00030B559 /* HorizontalImageViewer.xcdatamodeld */,
+				BD6484CA231DBD5E0030B559 /* ImageLoader.swift */,
+				BD6484CF231DBE990030B559 /* SwiftNameIdentifier.swift */,
+			);
+			path = HorizontalImageViewer;
+			sourceTree = "<group>";
+		};
+		BD6484CC231DBE740030B559 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BD6484CD231DBE7B0030B559 /* ScrollingImageCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BD6484D1231DBEB30030B559 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				BD6484D2231DBEBA0030B559 /* SnappingCollectionViewLayout.swift */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		D0E64F8BA05EE94487166BA3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1E7D758097EA37680DE0850 /* Pods-HorizontalImageViewer.debug.xcconfig */,
+				1D6E8979EC546CEE175C3F6E /* Pods-HorizontalImageViewer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD6484B1231DBCF00030B559 /* HorizontalImageViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD6484C7231DBCF20030B559 /* Build configuration list for PBXNativeTarget "HorizontalImageViewer" */;
+			buildPhases = (
+				A0E59D24BC3FEF963963BF1B /* [CP] Check Pods Manifest.lock */,
+				BD6484AE231DBCF00030B559 /* Sources */,
+				BD6484AF231DBCF00030B559 /* Frameworks */,
+				BD6484B0231DBCF00030B559 /* Resources */,
+				18FEC3AF8FFF78AE1B92A990 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HorizontalImageViewer;
+			productName = HorizontalImageViewer;
+			productReference = BD6484B2231DBCF00030B559 /* HorizontalImageViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD6484AA231DBCF00030B559 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = hucet;
+				TargetAttributes = {
+					BD6484B1231DBCF00030B559 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = BD6484AD231DBCF00030B559 /* Build configuration list for PBXProject "HorizontalImageViewer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD6484A9231DBCF00030B559;
+			productRefGroup = BD6484B3231DBCF00030B559 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD6484B1231DBCF00030B559 /* HorizontalImageViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD6484B0231DBCF00030B559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6484C3231DBCF20030B559 /* LaunchScreen.storyboard in Resources */,
+				BD6484C0231DBCF20030B559 /* Assets.xcassets in Resources */,
+				BD6484BB231DBCF00030B559 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18FEC3AF8FFF78AE1B92A990 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HorizontalImageViewer/Pods-HorizontalImageViewer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HorizontalImageViewer/Pods-HorizontalImageViewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0E59D24BC3FEF963963BF1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HorizontalImageViewer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD6484AE231DBCF00030B559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6484BE231DBCF00030B559 /* HorizontalImageViewer.xcdatamodeld in Sources */,
+				BD6484D3231DBEBA0030B559 /* SnappingCollectionViewLayout.swift in Sources */,
+				BD6484B8231DBCF00030B559 /* ViewController.swift in Sources */,
+				BD6484CB231DBD5E0030B559 /* ImageLoader.swift in Sources */,
+				BD6484B6231DBCF00030B559 /* AppDelegate.swift in Sources */,
+				BD6484CE231DBE7B0030B559 /* ScrollingImageCell.swift in Sources */,
+				BD6484D0231DBE990030B559 /* SwiftNameIdentifier.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BD6484B9231DBCF00030B559 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD6484BA231DBCF00030B559 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD6484C1231DBCF20030B559 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD6484C2231DBCF20030B559 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD6484C5231DBCF20030B559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD6484C6231DBCF20030B559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD6484C8231DBCF20030B559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1E7D758097EA37680DE0850 /* Pods-HorizontalImageViewer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 576T8HK6X4;
+				INFOPLIST_FILE = HorizontalImageViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hucet.HorizontalImageViewer.HorizontalImageViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD6484C9231DBCF20030B559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D6E8979EC546CEE175C3F6E /* Pods-HorizontalImageViewer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 576T8HK6X4;
+				INFOPLIST_FILE = HorizontalImageViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hucet.HorizontalImageViewer.HorizontalImageViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD6484AD231DBCF00030B559 /* Build configuration list for PBXProject "HorizontalImageViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD6484C5231DBCF20030B559 /* Debug */,
+				BD6484C6231DBCF20030B559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD6484C7231DBCF20030B559 /* Build configuration list for PBXNativeTarget "HorizontalImageViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD6484C8231DBCF20030B559 /* Debug */,
+				BD6484C9231DBCF20030B559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD6484BC231DBCF00030B559 /* HorizontalImageViewer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD6484BD231DBCF00030B559 /* HorizontalImageViewer.xcdatamodel */,
+			);
+			currentVersion = BD6484BD231DBCF00030B559 /* HorizontalImageViewer.xcdatamodel */;
+			path = HorizontalImageViewer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BD6484AA231DBCF00030B559 /* Project object */;
+}
